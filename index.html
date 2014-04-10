@@ -22,10 +22,10 @@
 
 
         <ul>
-          <li><a href="https://github.com/willens/jekyll_demo/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/willens/jekyll_demo/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/willens/jekyll_demo">View On <strong>GitHub</strong></a></li>
-        </ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　  　</ul>
       </header>
       <section>
         <h3>
