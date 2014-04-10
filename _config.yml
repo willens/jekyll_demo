@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: /jekyll_demo
 name: Name
 markdown: redcarpet
 auto: true
