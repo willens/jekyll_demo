@@ -1,5 +1,5 @@
 baseurl: /
 name: Name
 markdown: redcarpet
-pygments: true
+auto: true
 title: Title
