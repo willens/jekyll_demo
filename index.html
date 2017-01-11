@@ -9,7 +9,7 @@ title: 我的Blog
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% if {{post.title}}!='Xiaoyu' %}
+    {% if {{ post.title=='Xiaoyu' }} %}
       aaaaa
     { % endif % }
   </ul>
